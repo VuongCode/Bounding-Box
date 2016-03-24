@@ -1,5 +1,7 @@
 require_relative '../lib/bounding_box'
 
+#this test is for bounding box
+
 RSpec.describe BoundingBox do
   it 'has a left edge' do
     box = BoundingBox.new(5.0, 10.0, 25.0, 50.0)
@@ -72,4 +74,3 @@ RSpec.describe BoundingBox do
     end
   end
 end
-
